@@ -9,37 +9,51 @@
 				background: rgb(25, 27, 29);
 				color: rgb(200, 214, 227);
 				font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-          		margin: 40;
+			}
+		
+			section.text {
+          		margin: 40px;
 			}
           
           	div {
 				display: inline-block;
           		margin: auto;
-          		width: 300;
+          		width: 300px;
           	}
 
           	text {
           		display: inline-block;
           		margin: auto;
-				width: 300;
+				width: 300px;
 			}
           
           	img {
           		margin: 10px;
           	}
+			
+			.noselect {
+				-webkit-touch-callout: none;
+				-webkit-user-select: none;
+				-khtml-user-select: none;
+				-moz-user-select: none;
+				-ms-user-select: none;
+				user-select: none;
+			}
           
           	button {
   				background: rgb(200, 214, 227);
  			 	border: none;
   				color: rgb(25, 27, 29);
-  				padding: 30 40 30 40;
+  				padding: 30px 40x 30px 40px;
   				text-align: center;
   				text-decoration: none;
   				display: inline-block;
   				font-size: 16px;
-  				margin: 50 auto 0 auto;
+  				margin: 20px 50px 0px 50px;
           		border-radius: 12px;
           		font-weight: bold;
+				width: 120px;
+				height: 45px;
 			}
           
 		</style>
@@ -47,18 +61,21 @@
   
 	<body><center>
       
-		<h1><b>SSS</b></h1>
+		<section class="text">
+	  
+		<h1 class="noselect"><b>SSS</b></h1>
       
-		<img src="img/SSSIcon.png" alt="SSS Icon" height="140" />
+		<img class="noselect" src="img/SSSIcon.png" alt="SSS Icon" height="140" />
       
-		<h2>About SSS</h2>
+		<h2 class="noselect">About SSS</h2>
       
-		<p style="margin:20;font-size:25;width:30%" >SSS is a side scrolling shooter (it's in the name), in early dev stages, but here it is for the world to play.</p>
-
-		<button>
+		<p class="noselect" style="margin:20px;font-size:25px;width:30%" >SSS is a side scrolling shooter (it's in the name), in early dev stages, but here it is for the world to play.</p>
+		
+		</section>
+		
+		<button class="noselect">
           Play Online
-      </button>
-      <button>
+      </button><button class="noselect">
           Download
       </button>
    

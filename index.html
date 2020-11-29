@@ -9,19 +9,28 @@
 				background: rgb(25, 27, 29);
 				color: rgb(200, 214, 227);
 				font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-          		margin: 40;
+          		margin: 40px;
+			}
+			
+			.noselect {
+				-webkit-touch-callout: none;
+				-webkit-user-select: none;
+				-khtml-user-select: none;
+				-moz-user-select: none;
+				-ms-user-select: none;
+				user-select: none;
 			}
           
           	div {
 				display: inline-block;
           		margin: auto;
-          		width: 300;
+          		width: 300px;
           	}
 
           	text {
           		display: inline-block;
           		margin: auto;
-				width: 300;
+				width: 300px;
 			}
           
           	img {
@@ -33,24 +42,24 @@
   
 	<body><center>
       
-		<h1><b>Squared Studio</b></h1>
+		<h1 class="noselect"><b>Squared Studio</b></h1>
       
-		<img src="img/SquaredStudiosLogo.png" alt="Squared Studio Logo" height="140" />
+		<img class="noselect" src="img/SquaredStudiosLogo.png" alt="Squared Studio Logo" height="140" />
       
-		<h2>About Us</h2>
+		<h2 class="noselect">About Us</h2>
       
-		<p style="margin:20;font-size:25;width:30%" >We (Donsins and Chew) are a small game dev group, making games for the fun of it.</p>
+		<p class="noselect" style="margin:20px;font-size:25px;width:30%" >We (Donsins and Chew) are a small game dev group, making games for the fun of it.</p>
       
-      	<br>
+      	<br class="noselect">
       
-      	<h2>Our Games</h2>
+      	<h2 class="noselect">Our Games</h2>
       
-		<section>
-          <div><a href="SSS"><img src="img/SSSIcon.png" alt="SSS Icon" height="120" /></a></div>
-          <div></div>
-          <br>
-          <text>SSS</text>
-          <text></text>
+		<section class="noselect">
+          <div class="noselect"><a href="SSS"><img src="img/SSSIcon.png" alt="SSS Icon" height="120" /></a></div>
+          <div class="noselect"></div>
+          <br class="noselect">
+          <text class="noselect" style="font-size:20px">SSS</text>
+          <text class="noselect"></text>
       </section>
 		
 	</center></body>
