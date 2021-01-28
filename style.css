@@ -1,16 +1,16 @@
 .noselect {
-	-webkit-touch-callout: none;
-	-webkit-user-select: none;
-	-khtml-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 body {
-	background: rgb(25, 27, 29);
-	color: rgb(200, 214, 227);
-	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-	margin: 40px;
+  background: rgb(25, 27, 29);
+  color: rgb(200, 214, 227);
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin: 40px;
 }
 a {
   text-decoration: none;
