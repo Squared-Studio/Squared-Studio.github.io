@@ -12,16 +12,3 @@ body {
 	-ms-user-select: none;
 	user-select: none;
 }
-div {
-	display: inline-block;
-	margin: auto;
-  width: 300px;
-}
-text {
-  display: inline-block
-	margin: auto;
-	width: 300px;
-}
-img {
-	margin: 10px;
-}
